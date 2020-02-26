@@ -1,0 +1,54 @@
+body {
+	font-family: "Helvetica"
+	font-size: 16px;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+
+}
+
+h3 {
+	text-align: center;
+}
+.menu{
+	background-color: gray;
+	margin: 20px;
+	padding: 30px;
+}
+
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+.icon-bar {
+	color: #fff;
+	font-size: 20px;
+	margin: 20px;
+}
+
+
+
+@media (min-width: 992px) {
+	.container{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+		.container{
+		display: none;
+	}
+
+	.navbar-toggler{
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+
+}
